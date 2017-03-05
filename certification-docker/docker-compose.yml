@@ -1,0 +1,28 @@
+version: '2'
+services:
+  web:
+    build: ./web
+    image: openjdk:8-alpine
+    ports:
+      - "18080:8080"
+    depends_on:
+      - back
+    command: /bin/sh -c 'java -jar app.jar'
+    volumes:
+    - data-volume:/data
+  back:
+    build: ./back
+    image: openjdk:8-alpine
+    depends_on:
+      - mongo-prod
+    command: /bin/sh -c 'java -jar app.jar'
+    volumes:
+     - data-volume:/data
+  mongo-prod:
+    image: mongo:3.2.10
+    ports:
+      - "27017:27017"
+    volumes:
+     - data-volume:/data/db
+volumes:
+   data-volume:

@@ -1,0 +1,500 @@
+   96  ll
+   97  git status
+   98  ll
+   99  pwd
+  100  cd riadhmnasri.github.io/
+  101  ll
+  102  git status
+  103  git add -p
+  104  git status
+  105  git commit -m "Customize config file"
+  106  git push origin master
+  107  git fetch
+  108  git status
+  109  git add _config.yml
+  110  git commit -m "Customize config file - update study and web presence links"
+  111  git push origin master
+  112  git status
+  113  git add _includes/footer.html 
+  114  git commit -m "Footer change country/town"
+  115  git push origin master
+  116  git status
+  117  git add _includes/section_intro.html 
+  118  git commit -m "Customize Intro"
+  119  git push origin master
+  120  git status
+  121  git add _config.yml _includes/section_intro.html 
+  122  git commit -m "Enrich experiences details"
+  123  git push origin master
+  124  git status
+  125  git add _config.yml 
+  126  git commit -m "Enrich experiences details - correction"
+  127  git push origin master
+  128  git status
+  129  git add _config.yml 
+  130  git commit -m "Add remaining experiences details"
+  131  git push origin master
+  132  git add _config.yml 
+  133  git commit -m "Add remaining experiences details - fix build pb"
+  134  git push origin master
+  135  git status
+  136  git status
+  137  git add _includes/section_education.html _includes/section_skills.html 
+  138  git commit -m "Rename label + change table structure"
+  139  git push origin master
+  140  git add _includes/section_education.html _includes/section_skills.html 
+  141  git commit -m "Change table structure - fix pb"
+  142  git push origin master
+  143  git status
+  144  git add _config.yml 
+  145  git commit -m "Complete education and certifications"
+  146  git push origin master
+  147  ps -ef | grep safari
+  148  ps -aux | grep safari
+  149  ps -f | grep safari
+  150  ps  | grep safari
+  151  kill -9 Safari
+  152  kill -9 safari
+  153  vim /etc/hosts
+  154  sudo vim /etc/hosts
+  155  sudo vim /etc/hosts
+  156  npm install -g angular-cli
+  157  sudo npm install -g angular-cli
+  158  ng --help
+  159  ng help
+  160  ll
+  161  goidea
+  162  ll
+  163  pwd
+  164  mkdir mycompany
+  165  cd mycompany
+  166  ll
+  167  ll
+  168  pwd
+  169  cd ..
+  170  rm -rf mycompany/
+  171  ll
+  172  ng new mycompany
+  173  cd mycompany
+  174  ll
+  175  ll
+  176  ng serve
+  177  ll
+  178  git init
+  179  git add .
+  180  git commit -m "Skeleton setup"
+  181  git remote add origin https://github.com/riadh-mnasri/mycompany.git
+  182  git push -u origin master
+  183  ng serve
+  184  ng github-pages:deploy
+  185  pw
+  186  pwd
+  187  ng generate component my-services
+  188  ng serve
+  189  ng github-pages:deploy
+  190  git status
+  191  git add .
+  192  git status
+  193  git commit -m "Add my-services  module"
+  194  git push origin master
+  195  git commit -m "Add my-services  module"
+  196  git status
+  197  ng github-pages:deploy
+  198  docker version
+  199  docker info
+  200  docker --version
+  201  docker-compose
+  202  docker-compose --version
+  203  docker-machine --version
+  204  docker ps
+  205  docker run hello-world
+  206  docker run -it ubuntu bash
+  207  vim
+  208  java --version
+  209  java -version
+  210  lear
+  211  clear
+  212  brew update
+  213  sudo brew update
+  214  brew update
+  215  brew install yarn
+  216  ll
+  217  docker version
+  218  docker version
+  219  docker version
+  220  docker version
+  221  clear
+  222  docker version
+  223  docker-compose version
+  224  docker-machine version
+  225  docker-machine ls
+  226  env
+  227  clear
+  228  env
+  229  docker --version
+  230  docker run ubuntu /bin/sh
+  231  docker run -it ubuntu /bin/sh
+  232  docker run -it ubuntu "hello sfeir school"
+  233  docker run -it busybox "hello sfeir school"
+  234  docker ps
+  235  docker run -it hello-world "hello sfeir school"
+  236  docker run -it ubuntu "hello sfeir school"
+  237  docker run -it ubuntu -d "hello sfeir school"
+  238  clear
+  239  docker run -it ubuntu -d "hello sfeir school"
+  240  docker ps
+  241  docker ps
+  242  docker run -it ubuntu -d "hello sfeir school"
+  243  docker run ubuntu -it -d "hello sfeir school"
+  244  docker run ubuntu -it "hello sfeir school"
+  245  docker run ubuntu /bin/echo hello world
+  246  clear
+  247  docker container run --rm alpine --name alpin_echo echo "hello sfeir"
+  248  docker container run --rm --name alpin_echo alpine echo "hello sfeir"
+  249  docker container run --name alpin_echo alpine echo "hello sfeir"
+  250  docker container ls -a
+  251  docker container run -it  alpine /bin/sh
+  252  docker container run -it alpine /bin/sh
+  253  docker container run -d alpine /bin/sh -c
+  254  docker container ls -a
+  255  docker container ls
+  256  docker container run -d alpine /bin/sh -c
+  257  docker container ls
+  258  docker container logs 500
+  259  docker container run -d alpine /bin/sh
+  260  docker container logs 500
+  261  docker container logs
+  262  docker container logs d274d7dadb722c6d65887378753b9f6ab6d1f102ea38d81a70248e981f674957
+  263  docker container run -d alpine /bin/sh
+  264  docker ps
+  265  docker ps -a
+  266  docker container ls
+  267  docker container ls -a
+  268  docker container prune
+  269  docker search alpin
+  270  docker image pull alpin 3.3
+  271  docker image pull alpine 3.3
+  272  docker search alpine
+  273  docker image pull alpine 3.3
+  274  docker image pull "alpine 3.3"
+  275  docker image pull alpine
+  276  docker image pull alpine 3.3
+  277  docker image pull alpine 3
+  278  docker image pull alpine
+  279  docker image ls
+  280  docker image pull alpine latest
+  281  docker image pull alpine
+  282  docker run -it --name alpine-node alpine:3.3 /bin/sh
+  283  docker run -it --name alpine-node alpine:3.3 /bin/sh
+  284  docker run -it --name alpine-node alpine:3.3 /bin/sh
+  285  docker run -it --name alpine-node2 alpine:3.3 /bin/sh
+  286  docker container commit -m "add node" -a "Riadh MNASRI" alpine-node2 riadhmnasri/alpine-node2:v1
+  287  docker image ls
+  288  docker run ps
+  289  docker ps -a
+  290  docker container prune
+  291  docker ps -a
+  292  docker image pull alpine
+  293  docker run -it --name alpine-node alpine:3.3 /bin/sh
+  294  docker ls -a
+  295  docker ps
+  296  docker container commit -m "add node" -a "riadhmnasri" alpine-node riadhmnasri/alpine-node:v1
+  297  docker image ls
+  298  docker image search alpine
+  299  docker search alpine
+  300  docker image pull alpine:3.3
+  301  docker run -it --name alpine_with_node alpine:3.3 /bin/sh
+  302  docker commit -m "add node" alpine_with_node -t riadhmnasri/alpine_with_node:v1
+  303  docker commit -m "add node" alpine_with_node -t riadhmnasri/alpine_with_node:v1
+  304  docker commit -m "add node" alpine_with_node riadhmnasri/alpine_with_node:v1
+  305  clear
+  306  gg
+  307  gg
+  308  docker-machine ssh
+  309  docker-machine ssh
+  310  bash --login '/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'
+  311  pwd
+  312  ll
+  313  cd Downloads/
+  314  ls
+  315  mkdir docker_training_shared_volume
+  316  cd docker_training_shared_volume/
+  317  pwd
+  318  docker container run --rm -it -v /Users/riadh/Downloads/docker_training_shared_volume:/data_1 --name alpine_1 alpine /bin/sh
+  319  echo "hello sfeir school" > /data_1/test.txt
+  320  ;
+  321  docker container run --rm -it -v /Users/riadh/Downloads/docker_training_shared_volume:/data_1 --name alpine_1 alpine /bin/sh
+  322  goidea
+  323  pwd
+  324  git clone https://github.com/AndolsiZied/workshop-docker.git
+  325  pwd
+  326  cd workshop-docker/
+  327  ll
+  328  cd ..
+  329  ll
+  330  mkdir docker-mine-exercices
+  331  cd docker-mine-exercices/
+  332  ll
+  333  vim Dockerfile
+  334  cat Dockerfile 
+  335  docker build -t $USER/alpine_node:v1
+  336  docker build -t $USER/alpine_node:v1 .
+  337  cat Dockerfile 
+  338  vim Dockerfile
+  339  docker build -t $USER/alpine_node:v1 .:q
+  340  echo $USER
+  341  docker build -t $USER/alpine_node:v1 .
+  342  vim Dockerfile
+  343  docker build -t $USER/alpine_node:v1 .
+  344  docker ps
+  345  docker build -t $USER/alpine_node:v1 .
+  346  vim Dockerfile
+  347  docker build -t $USER/alpine_node:v1 .
+  348  ls -lrt Users/riadh/IdeaProjects/workshop-docker/part_4_docker_file/src
+  349  vim Dockerfile
+  350  ls -lrt /Users/riadh/IdeaProjects/workshop-docker/part_4_docker_file/src
+  351  docker build -t $USER/alpine_node:v1 .
+  352  ls -lrt /Users/riadh/IdeaProjects/workshop-docker/part_4_docker_file/src
+  353  vim Dockerfile
+  354  cd /Users/riadh/Downloads/docker-sample-workspace/
+  355  ll
+  356  mkdir src
+  357  cll
+  358  find . Dockerfile
+  359  cd ..
+  360  cd ..
+  361  ll
+  362  cd riadh/
+  363  find . Dockerfile
+  364  goidea
+  365  ll
+  366  cd docker-mine-exercices/
+  367  ll
+  368  docker build -t $USER/alpine_node:v1 .
+  369  vim Dockerfile
+  370  docker build -t $USER/alpine_node:v1 .
+  371  vim Dockerfile
+  372  docker build -t $USER/alpine_node:v1 .
+  373  vim Dockerfile
+  374  docker build -t $USER/alpine_node:v1 .
+  375  vim Dockerfile
+  376  ll /Users/riadh/Downloads/docker-sample-workspace
+  377  vim Dockerfile
+  378  docker build -t $USER/alpine_node:v1 .
+  379  ll /Users/riadh/IdeaProjects/workshop-docker/part_4_docker_file/src/
+  380  docker build -t $USER/alpine_node:v1 .
+  381  vim Dockerfile
+  382  docker build -t $USER/alpine_node:v1 .
+  383  vim Dockerfile
+  384  docker build -t $USER/alpine_node:v1 .
+  385  vim Dockerfile
+  386  docker build -t $USER/alpine_node:v1 .
+  387  wq!
+  388  vim Dockerfile
+  389  docker build -t $USER/alpine_node:v1 .
+  390  vim Dockerfile
+  391  docker build -t $USER/alpine_node:v1 .
+  392  vim Dockerfile
+  393  docker build -t $USER/alpine_node:v1 .
+  394  vim Dockerfile
+  395  docker build -t $USER/alpine_node:v1 .
+  396  vim Dockerfile
+  397  docker build -t $USER/alpine_node:v1 .
+  398  pwd
+  399  cp -R /riadh/IdeaProjects/workshop-docker/part_4_docker_file/src .
+  400  ll
+  401  pwd
+  402  cp -R /riadh/IdeaProjects/workshop-docker/part_4_docker_file/src/ .
+  403  ll
+  404  ll
+  405  pwd
+  406  ls -lrt /riadh/IdeaProjects/workshop-docker/part_4_docker_file/
+  407  cp -R /Users/riadh/IdeaProjects/workshop-docker/part_4_docker_file/src .
+  408  ll
+  409  vim Dockerfile
+  410  docker build -t $USER/alpine_node:v1 .
+  411  vim Dockerfile
+  412  docker build -t $USER/alpine_node:v1 .
+  413  docker ps
+  414  ls -la | grep ".bash_profile"
+  415  cd /home
+  416  ll
+  417  ls
+  418  pwd
+  419  ls -lrt
+  420  pwd
+  421  ls -la | grep ".bash_profile"
+  422  touch .bash_profile
+  423  ll
+  424  locate .bash_profile
+  425  cd
+  426  pwd
+  427  vim .bash_profile 
+  428  bash --login '/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'
+  429  docker-machine ip
+  430  docker-machine ip addr show
+  431  docker-machine
+  432  docker container run --rm -it -v /Users/riadh/Downloads/docker_training_shared_volume:/data_2 --name alpine_2 alpine /bin/sh
+  433  pwd
+  434  ll
+  435  cd D
+  436  cd Downloads/
+  437  pwd
+  438  ll
+  439  mkdir docker-sample-workspace
+  440  goidea
+  441  ll
+  442  cd workshop-docker/
+  443  ll
+  444  cd part_3_docker_file/
+  445  ll
+  446  cd solution/
+  447  ll
+  448  cd tomcat/
+  449  ll
+  450  cd Dockerfile 
+  451  ll
+  452  cd ..
+  453  pwd
+  454  cd ..
+  455  cd ..
+  456  ll
+  457  part_1_run_container/
+  458  ll
+  459  cd part_3_docker_file/
+  460  ll
+  461  git branch
+  462  git status
+  463  git remote -v
+  464  git branch -a
+  465  git checkout training
+  466  ll
+  467  cd ..
+  468  cd part_3_volume/
+  469  ll
+  470  cd solution/
+  471  ll
+  472  cd ..
+  473  cd ..
+  474  ll
+  475  cd part_4_docker_file/
+  476  ll
+  477  pwd
+  478  goidea
+  479  ls
+  480  cd docker-mine-exercices/
+  481  ls
+  482  vim docker-compose.yml
+  483  docker-compose up
+  484  ll
+  485  vim docker-compose.yml 
+  486  docker-machine ls
+  487  docker-machine env
+  488  bash --login '/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'
+  489  ll
+  490  tree
+  491  ps -ef 
+  492  ps
+  493  ps -a
+  494  netstat
+  495  top
+  496  ls -la
+  497  ll
+  498  pwd
+  499  docker container run alpine /bin/echo 'hello sfeir school!'
+  500  docker container run -it alpine /bin/sh
+  501  docker run -d alpine /bin/sh -c "while true; do echo Hello sfeir school; sleep 1; done"
+  502  docker container logs 47a
+  503  docker container logs
+  504  docker container logs --help
+  505  docker container logs --tail
+  506  docker container logs --tail9
+  507  docker container logs --tail 10
+  508  docker container logs 47a
+  509  docker container logs 8f10543ef423ec18dfd791dec47da94ccb960f3720ba381c48f3e22f52b84463
+  510  docker container ls -a
+  511  docker container stop 8f10543ef423ec18dfd791dec47da94ccb960f3720ba381c48f3e22f52b84463
+  512  docker container start 8f10543ef423ec18dfd791dec47da94ccb960f3720ba381c48f3e22f52b84463
+  513  docker container restart 8f10543ef423ec18dfd791dec47da94ccb960f3720ba381c48f3e22f52b84463
+  514  docker container rm 8f10543ef423ec18dfd791dec47da94ccb960f3720ba381c48f3e22f52b84463
+  515  docker container rm -f 8f10543ef423ec18dfd791dec47da94ccb960f3720ba381c48f3e22f52b84463
+  516  docker search alpine
+  517  docker image pull alpine 3.3
+  518  docker image pull alpine:3.3
+  519  docker run -it --name alpine-node alpine:3.3 /bin/sh
+  520  docker container rm -f bc8a35cb3c521b30894d40a0aa82544f95d65d5c3b254b3bb5bf7cde5b0c3611
+  521  docker run -it --name alpine-node alpine:3.3 /bin/sh
+  522  docker container commit -m "add node" -a "riadhm" alpine-node riadhm/alpine-node:v1
+  523  docker image ls
+  524  docker login --username=riadhm
+  525  docker image push riadhm/alpine
+  526  docker image push riadhm/alpine-node
+  527  docker container run --rm -it -v /home/shared_volume:/data_1 --name alpine_1 alpine /bin/sh
+  528  pwd
+  529  docker container run --rm -it -v /Users/riadh/Downloads/docker/shared_volume:/data_1 --name alpine_1 alpine /bin/sh
+  530  docker container rm -f 876cd493fa4e5e248bf9278dd4eb651cfcbcd6a7f5157831029b978db9d2ef17
+  531  docker container run --rm -it -v /Users/riadh/Downloads/docker/shared_volume:/data_1 --name alpine_1 alpine /bin/sh
+  532  docker container run --rm -it -v /Users/riadh/Downloads/docker/shared_volume:/data_2 --name alpine_2 alpine /bin/sh
+  533  pwd
+  534  goidea
+  535  ll
+  536  cd docker-mine-exercices/
+  537  ll
+  538  cd ..
+  539  ll
+  540  cp -R docker-mine-exercices/ backup-docker-workshop-my-work/ 
+  541  ll
+  542  cd backup-docker-workshop-my-work/
+  543  ll
+  544  cd ..
+  545  ll
+  546  cd docker-mine-exercices/
+  547  ll
+  548  cd src/
+  549  ll
+  550  cd ..
+  551  pw
+  552  pwd
+  553  ll
+  554  vim Dockerfile 
+  555  docker build -t riadhm/alpine_with_node:v1 
+  556  docker build -t riadhm/alpine_with_node:v1 .
+  557  docker container ls
+  558  docker container ls -a
+  559  docker container ls -a
+  560  clear
+  561  clear
+  562  docker container ls -a
+  563  docker-machine ip
+  564  docker container ls -a
+  565  docker-machine ip
+  566  pinata diagnose -u
+  567  docker-machine ip default
+  568  docker network inspect
+  569  docker inspect
+  570  docker run -d -p 5000:5000 --name alpine_with_node riadhm/alpine_with_node:v1
+  571  docker container rm -f dc6bc0a6968597b3949746ddcfc30d304716ff8ed1ee6e9f4f54618412861952
+  572  docker run -d -p 5000:5000 --name alpine_with_node riadhm/alpine_with_node:v1
+  573  docker-machine ip default
+  574  docker-machine ip
+  575* 
+  576  :q
+  577  docker run -d -p 5000:5000 --name alpine_with_node riadhm/alpine_with_node:v1
+  578  docker container ls -a
+  579  docker-machine ip
+  580  docker-machine restart default
+  581  docker-machine env
+  582  docker-machine ip
+  583  docker run -d -p 5000:5000 --name alpine_with_node riadhm/alpine_with_node:v1
+  584  docker container rm dd4a54677a8be86cac8f0413c008034327c4e214f8055976366db6f309f54137
+  585  docker run -d -p 5000:5000 --name alpine_with_node riadhm/alpine_with_node:v1
+  586  docker-machine ip
+  587  pwd
+  588  ll
+  589  docker build -t riadhm/alpine_with_node:v1 
+  590  docker build -t riadhm/alpine_with_node:v1 .
+  591  docker run -d -p 5000:5000 --name alpine_with_node riadhm/alpine_with_node:v1
+  592  docker container rm -f  61b5e3681a78ab4bb252b0a31eb0ae345a2fc709488ad6081a65c76a50617c07
+  593  docker run -d -p 5000:5000 --name alpine_with_node riadhm/alpine_with_node:v1
+  594  history
+  595  history > docker-commands-history.txt

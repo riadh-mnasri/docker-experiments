@@ -1,0 +1,17 @@
+version: '2'
+services:
+  dc_server:
+    image: alpine:3.3
+    command: /bin/sh -c 'while true; do sleep 5; date +"%H:%M:%S" >> /data/training.txt; done'
+    volumes:
+    - data-volume:/data
+ 
+  dc_client:
+    image: alpine:3.3
+    depends_on:
+      - dc_server
+    command: tail -f /data/training.txt
+    volumes:
+     - data-volume:/data
+volumes:
+   data-volume:
